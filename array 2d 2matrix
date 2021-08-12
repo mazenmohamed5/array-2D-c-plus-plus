@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+void main()
+{
+	const int n = 3;
+	const int m = 3;
+	int x[n][m];
+		for (int i = 0; i < 3; i++)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				cin >> x[i][j];
+				cout << "x[" << i << "][" << j << "]=" << x[i][j] << endl;
+			}
+		}
+}
